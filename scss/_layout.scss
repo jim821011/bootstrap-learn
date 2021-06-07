@@ -1,0 +1,93 @@
+.ff-bt {
+  font-family: "Baloo Tamma 2";
+}
+
+.mb-2rem {
+  margin-bottom: 2rem;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-18 {
+  font-size: 18px;
+}
+
+.img-border {
+  border-radius: 25px;
+}
+.border-ru-4 {
+  border-radius: 4px;
+}
+.border-ru-6 {
+  border-radius: 6px;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.nav-style {
+  padding: 22px 20px;
+  border-bottom: 2px solid transparent;
+  &:hover {
+    font-weight: bolder;
+  }
+  &.active {
+    border-bottom: 2px solid #FFDF65;
+    font-weight: bolder;
+  }
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.accordion-button {
+  &.collapsed {
+    border: 1px solid #E5E5E5;
+  }
+}
+.accordion-button:not(.collapsed) {
+  color: #494846;
+  background-color: white;
+}
+
+.schedule-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 200px;
+  &.img-1 {
+    background-image: url(https://hexschool.github.io/boootstrap5WebLayout/assets/news01.jpg);
+  }
+  &.img-2 {
+    background-image: url(https://hexschool.github.io/boootstrap5WebLayout/assets/news02.jpg);
+  }
+  &.img-3 {
+    background-image: url(https://hexschool.github.io/boootstrap5WebLayout/assets/news03.jpg);
+  }
+}
+
+.btn-primary-hover {
+  &:hover {
+    background-color: #FF785E;
+    color: white !important;
+    border-color: #FF785E;
+  }
+}
+
+.btn-gary-hover {
+  &:hover {
+    background-color: #FFDF65;
+    border-color: #FFDF65;
+    color: #858377;
+    i {
+      color: #FF785E;
+    }
+  }
+}
